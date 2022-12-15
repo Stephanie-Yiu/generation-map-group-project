@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap');
+/*font-family: 'Brygada 1918', serif;*/
+body{
+  box-sizing: border-box;
+  margin: 40px auto;
+  background-color: #090909;
+  
+}
+.cointainer{
+
+  background-image: url(image/game-of-thrones-westeros-map.jpg);
+width: 1913px;
+height:4218px;
+position: relative;
+margin: auto;
+font-family: 'Brygada 1918', serif;
+box-shadow: 44px 106px 400px 200px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 44px 106px 400px 200px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 44px 106px 400px 200px rgba(0,0,0,0.75) inset;
+}
+
+.circle-LAND-OF-ALWAYS-WINTER{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(103, 103, 103);
+  position: absolute;
+  left:320px;
+  top: 130px;
+  transition: 0.7s ease;
+
+cursor: pointer;
+border-radius: 100%;
+}
+.place-LAND-OF-ALWAYS-WINTER{
+ display: none;
+}
+.circle-LAND-OF-ALWAYS-WINTER:hover+.place-LAND-OF-ALWAYS-WINTER{
+  width: 445px;
+  height: fit-content;
+  background-color: rgba(220, 224, 227, 0.846);
+  position: absolute;
+  left:350px;
+  top: 130px;
+opacity: 1;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+z-index: 10;
+opacity: 1;
+box-shadow: -6px 58px 290px -4px rgb(10, 27, 66) inset;
+-webkit-box-shadow: -6px 58px 290px -4px rgba(0,0,0,1) inset;
+-moz-box-shadow: -6px 58px 290px -4px rgba(0,0,0,1) inset;
+}
+
+h1{
+  text-align: center;
+}
+span{
+  font-weight: bold;
+}
+p{
+  font-size: 20px;
+}
+.place-img-box{
+  width: 80%;
+  margin: auto auto;
+  font-family: 'Brygada 1918', serif;
+}
+img{
+width: 348px;
+
+margin: auto auto;
+}
+/**/
+
+
+
+
+
+.circle-shadow-tower{
+
+  width: 30px;
+  height: 30px;
+  background-color: rgba(220, 224, 227, 0.846);
+  position: absolute;
+  left:1054px;
+  top: 629px;
+  transition: 0.7s ease;
+
+cursor: pointer;
+border-radius: 100%;
+}
+.place-SHADOW-TOWER{
+display: none;
+}
+
+.circle-shadow-tower:hover+.place-SHADOW-TOWER{
+  left:549px;
+  top: 526px;
+  width: 445px;
+  height: fit-content;
+  background-color: rgba(220, 224, 227, 0.846);
+  position: absolute;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+z-index: 10;
+}
+
+
+.circle-castle-black{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 249, 252);
+  position: absolute;
+  left:1215px;
+  top: 629px;
+cursor: pointer;
+border-radius: 100%;
+}
+.place-castle-black{
+  display: none;
+}
+.circle-castle-black:hover+.place-castle-black{
+  left:549px;
+  top: 526px;
+  width: 445px;
+  height: fit-content;
+  background-color: rgba(220, 224, 227, 0.846);
+  position: absolute;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+z-index: 10;
+
+}
+
+.circle-eastwatch-by-the-sea{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 249, 252);
+  position: absolute;
+  left: 1371px;
+  top: 631px;
+cursor: pointer;
+border-radius: 100%;
+}
+.place-eastwatch-by-the-sea{
+  display: none;
+}
+
+.circle-eastwatch-by-the-sea:hover+.place-eastwatch-by-the-sea{
+  left:549px;
+  top: 526px;
+  width: 445px;
+  height: fit-content;
+  background-color: rgba(220, 224, 227, 0.846);
+  position: absolute;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+z-index: 10;
+}
+.circle-last-hearth{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 249, 252);
+  position: absolute;
+  left: 1299px;
+  top: 946px;
+cursor: pointer;
+border-radius: 100%;
+}
+.place-last-hearth{
+  display: none;
+}
+.circle-last-hearth:hover+.place-last-hearth{
+  left:549px;
+  top: 526px;
+  width: 445px;
+  height: fit-content;
+  background-color: rgba(220, 224, 227, 0.846);
+  position: absolute;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+z-index: 10;
+}
+.circle-winterfell{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 249, 252);
+  position: absolute;
+  left: 920px;
+  top: 1263px;
+cursor: pointer;
+border-radius: 100%;
+}
+.place-winterfell{
+  display: none;
+}
+
+.circle-winterfell:hover+.place-winterfell{
+  left: 112px;
+    top: 932px;
+  width: 445px;
+  height: fit-content;
+  background-color: rgba(220, 224, 227, 0.846);
+  position: absolute;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+z-index: 10;
+}
+.circle-barrowton{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 249, 252);
+  position: absolute;
+  left: 663px;
+top: 1600px;
+cursor: pointer;
+border-radius: 100%;
+}
+.place-barrowton{
+  display: none;
+}
+
+.circle-barrowton:hover+.place-barrowton{
+  left: 53px;
+  top: 1305px;
+width: 445px;
+height: fit-content;
+background-color: rgba(220, 224, 227, 0.846);
+position: absolute;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+z-index: 10;
+}
+
+.circle-moat-cailin{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 249, 252);
+  position: absolute;
+  left: 1010px;
+  top: 1706px;
+cursor: pointer;
+border-radius: 100%;
+}
+.place-moat-cailin{
+  display: none;
+}
+.circle-moat-cailin:hover+.place-moat-cailin{
+  left: 1278px;
+  top: 1663px;
+width: 445px;
+height:fit-content;
+background-color: rgba(220, 224, 227, 0.846);
+position: absolute;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+z-index: 10;
+}
+.circle-the-twins{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 249, 252);
+  position: absolute;
+  left: 876px;
+  top: 2131px;
+cursor: pointer;
+border-radius: 100%;
+
+}
+.place-the-twins{
+  display: none;
+}
+.circle-the-twins:hover+.place-the-twins{
+  left: 906px;
+  top: 2131px;
+width: 445px;
+height:fit-content;
+background-color: rgba(220, 224, 227, 0.846);
+position: absolute;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+}
+
+.circle-the-eyrie{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 249, 252);
+  position: absolute;
+  left: 1356px;
+  top: 2290px;
+cursor: pointer;
+border-radius: 100%;
+}
+.place-the-eyrie{
+  display: none;
+}
+.circle-the-eyrie:hover+.place-the-eyrie{
+  left: 1386px;
+  top: 2290px;
+width: 445px;
+height:fit-content;
+background-color: rgba(220, 224, 227, 0.846);
+position: absolute;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+z-index: 10;
+}
+
+
+
+
+.circle-harrenhal{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 249, 252);
+  position: absolute;
+  left: 1107px;
+  top: 2543px;
+cursor: pointer;
+border-radius: 100%;
+
+}
+
+
+
+
+
+.place-harrenhal{
+  display: none;
+}
+.circle-harrenhal:hover+.place-harrenhal{
+  left: 1137px;
+  top: 2543px;
+width: 445px;
+height:fit-content;
+background-color: rgba(220, 224, 227, 0.846);
+position: absolute;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+z-index: 10;
+}
+
+.circle-kings-landing{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 249, 252);
+  position: absolute;
+  left: 1276px;
+  top: 2881px;
+cursor: pointer;
+border-radius: 100%;
+}
+.place-kings-landing{
+  display: none;
+}
+.circle-kings-landing:hover+.place-kings-landing{
+  left: 1306px;
+  top: 2881px;
+width: 445px;
+height:fit-content;
+background-color: rgba(220, 224, 227, 0.846);
+position: absolute;
+cursor: pointer;
+border-radius: 10%;
+display: block;
+z-index: 10;
+}
+
+.drop-down{
+  position: relative;
+}
+.circle-oldtown{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 249, 252);
+  position: absolute;
+  left: 363px;
+  top: 3595px;
+cursor: pointer;
+border-radius: 100%;
+border: 0;
+padding: 0;
+}
+.place-oldtown{
+  left: 113px;
+  bottom: -631px;
+width: 445px;
+height:fit-content;
+background-color: rgba(220, 224, 227, 0.846);
+position: absolute;
+cursor: pointer;
+border-radius: 10%;
+opacity: 0;
+  pointer-events: none;
+
+  transition: opacity 150ms ease-in-out;
+}
+
+.circle-oldtown:hover >.place-oldtown{
+  left: 113px;
+  bottom: -631px;
+width: 445px;
+height:fit-content;
+background-color: rgba(220, 224, 227, 0.846);
+position: absolute;
+cursor: pointer;
+border-radius: 10%;
+opacity: 1;
+  pointer-events: none;
+  z-index: 10;
+  transition: opacity 150ms ease-in-out;
+  font-family: 'Brygada 1918', serif;
+}
